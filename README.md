@@ -8,4 +8,6 @@
 
 Settings -> Pages -> Deploy from a branch -> main -> /root
 
-بعد ربط دومين حقيقي، حدّث `sitemap.template.xml` بالدومين واحفظه باسم `sitemap.xml`.
+الرابط المجاني الحالي للموقع:
+
+https://carpathguide.github.io/
