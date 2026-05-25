@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>تواصل معنا | مسار السيارات</title>
+    <meta
+      name="description"
+      content="تواصل مع موقع مسار السيارات للاقتراحات والأسئلة المتعلقة بمحتوى السيارات."
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="مسار السيارات">
+        <span class="brand-mark">م</span>
+        <span>مسار السيارات</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="main-nav" id="main-nav" aria-label="التنقل الرئيسي">
+        <a href="index.html">الرئيسية</a>
+        <a href="index.html#guides">الأدلة</a>
+        <a href="about.html">من نحن</a>
+        <a href="privacy.html">الخصوصية</a>
+        <a href="contact.html">تواصل</a>
+      </nav>
+    </header>
+
+    <main class="content-page">
+      <p class="eyebrow">تواصل معنا</p>
+      <h1>راسل فريق مسار السيارات</h1>
+      <p>
+        نستقبل الاقتراحات وتصحيح المعلومات وأفكار المقالات الجديدة. عند نشر
+        الموقع، اربط هذا النموذج بخدمة استقبال رسائل أو بريد رسمي باسم الموقع.
+      </p>
+
+      <form class="contact-form">
+        <div class="field-grid">
+          <label>
+            الاسم
+            <input type="text" name="name" placeholder="اكتب اسمك" />
+          </label>
+          <label>
+            البريد الإلكتروني
+            <input type="email" name="email" placeholder="name@example.com" />
+          </label>
+        </div>
+        <label>
+          الرسالة
+          <textarea name="message" placeholder="اكتب رسالتك هنا"></textarea>
+        </label>
+        <button type="submit">إرسال</button>
+      </form>
+    </main>
+
+    <footer class="site-footer">
+      <p>© 2026 مسار السيارات. جميع الحقوق محفوظة.</p>
+      <div>
+        <a href="about.html">من نحن</a>
+        <a href="privacy.html">سياسة الخصوصية</a>
+        <a href="terms.html">الشروط</a>
+        <a href="disclaimer.html">إخلاء المسؤولية</a>
+        <a href="contact.html">تواصل معنا</a>
+      </div>
+    </footer>
+  </body>
+</html>

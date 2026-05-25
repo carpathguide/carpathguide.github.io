@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# After publishing, create a final sitemap.xml with your real domain and add:
+# Sitemap: https://your-domain.com/sitemap.xml
